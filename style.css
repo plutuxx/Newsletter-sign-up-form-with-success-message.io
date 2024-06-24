@@ -229,6 +229,8 @@ body {
 @media (width <=480px) {
     body {
         display: block;
+        flex-direction: column;
+        justify-content: space-evenly;
         background-color: var(--White);
     }
 
@@ -270,6 +272,7 @@ body {
     }
 
     .attribution {
-        position: static;
+       position: relative;
+       margin-bottom: 0px;
     }
 }
