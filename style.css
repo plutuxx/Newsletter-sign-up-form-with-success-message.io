@@ -200,6 +200,17 @@ body {
     background-image: linear-gradient(90deg, hsl(346.74deg 100% 66.27%), hsl(14.23deg 98.98% 61.57%));
 }
 
+.attribution {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
 @media (480px < width <=768px) {
     .img-section {
         height: 370px;
@@ -229,8 +240,6 @@ body {
 @media (width <=480px) {
     body {
         display: block;
-        flex-direction: column;
-        justify-content: space-evenly;
         background-color: var(--White);
     }
 
@@ -272,7 +281,6 @@ body {
     }
 
     .attribution {
-       position: relative;
-       margin-bottom: 0px;
+        position: static;
     }
 }
